@@ -5,7 +5,7 @@
 
   The following explains what i scraped:
 
- # NASA Mars News
+## NASA Mars News
 
  1. Scraped the NASA Mars News Site and collected the latest News Title and Paragraph Text.
  2. Assigned the text to variables so that I could reference later: See:
@@ -15,7 +15,7 @@ Example:
 news_title = "NASA's Next Mars Mission to Investigate Interior of Red Planet"
 news_p = "Preparation of NASA's next spacecraft to Mars, InSight, has ramped up this summer, on course for launch next May from Vandenberg Air Force Base in central California -- the first interplanetary launch in history from America's West Coast."
 
-# JPL Mars Space Images
+## JPL Mars Space Images
   3. Visited the url for JPL Featured Space. https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars
   4. Used splinter to navigate the site and found the image url for the current Featured Mars Image and 
   5. Assigned the url string to a variable called featured_image_url.
@@ -24,7 +24,7 @@ news_p = "Preparation of NASA's next spacecraft to Mars, InSight, has ramped up 
     Example:
     featured_image_url = 'https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA16225_hires.jpg'
     
-# Mars Weather:
+## Mars Weather:
 
   8. Visited the Mars Weather twitter account and 
   9. Scraped the latest Mars weather tweet from the page. 
