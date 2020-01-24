@@ -70,18 +70,18 @@ that was scraped from the set of above URLs
 Note: To achieve the above efficiently:
 
 ------------------------------------------------------------------------------------------------------
-# a. I Used Splinter to navigate the sites when needed and 
-# b. I used  BeautifulSoup to help find and parse out the necessary data. 
+## a. I Used Splinter to navigate the sites when needed and 
+## b. I used  BeautifulSoup to help find and parse out the necessary data. 
 -                                                       Piruz Alemi Jan 24, 2020
 ------------------------------------------------------------------------------------------------------
 
 
 ## Making it easier:
 
-# a. I Used Pymongo for CRUD applications for my database.
+## a. I Used Pymongo for CRUD applications for my database.
       To maintain simplicity, 
      I overwrote the existing document each time the /scrape url is visited and new data is obtained.
-# b I used Bootstrap to structure my HTML template. Thats smart! as it saved me time.
+## b I used Bootstrap to structure my HTML template. Thats smart! as it saved me time.
 
 The Jupyter Notebook containing the scraping code used, is in this depository under 3 days! + Screen shots of my final application. Thats a record time of production, all from scratch and new! Thanks to my team!!
 
