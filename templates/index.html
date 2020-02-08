@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Alemi Mars News</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="jumbotron text-center">
+      <h2>Piruz Alemi.</h2>
+      <h2>MARS News Channel is here for You!!! ...</h2>
+      <p>Check out the latest news from Mars!.</p>
+      <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Get MARS NEWS Data!</a></p>
+    </div>
+    <img src="{{ news_db.nasa_img }}" alt="Nasa">
+    <h2>The typical Mars News is:</h2>
+    <h3>Nasa News Title: {{ news_db.Title }}</h3>
+    <p>Nasa News Links: {{ news_db.Links }}</p>
+  </div>
+  </div>
+</body>
+
+</html>
